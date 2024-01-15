@@ -22,9 +22,9 @@ Config = {}
 Config.CalloutLocations = {
     {
         coords = vector3(1172.32, 2695.93, 37.87),
-        description = '',
         calloutType = 'shotsfired',
         weapon = 'WEAPON_PISTOL',
+        dispatchmessage = 'Shots fired at the location',
     },
 }
 Config.CalloutNpcs = {

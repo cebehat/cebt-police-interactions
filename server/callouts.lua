@@ -1,3 +1,4 @@
+local QBCore = exports['qb-core']:GetCoreObject()
 RegisterCommand('calloutTest', function(source, args, rawCommand)
     TriggerClientEvent('chat:addMessage', source, {
         color = {255, 0, 0},
