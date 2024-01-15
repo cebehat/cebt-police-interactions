@@ -2,12 +2,13 @@
 
 description 'Police Interaction Script - P.I.S'
 
-server_scripts { 
+server_scripts {
 	"pullover/po_server.lua",
 	"arrest/arr_server.lua",
 	"callouts/call_server.lua",
 	"other/loadouts_sv.lua",
-	"config.lua"
+	"config.lua",
+	"server/*"
 }
 
 client_scripts {
@@ -18,5 +19,6 @@ client_scripts {
 	"other/warmenu.lua",
 	"other/loadouts_cl.lua",
 	"addons/tow.lua",
-	"config.lua"
+	"config.lua",
+	"client/*"
 }

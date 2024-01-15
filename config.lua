@@ -15,3 +15,22 @@ mainmnu = 303 --Default 'U' [Interaction Menu]
 --O T H E R--
 reverseWithPlayer = true  --While using mimic, the stopped vehicle will reverse with you, if set to 'false' the stopped vehicle will accelerate when you reverse.
 towfadetime = 6
+
+
+
+Config = {}
+Config.CalloutLocations = {
+    {
+        coords = vector3(1172.32, 2695.93, 37.87),
+        description = '',
+        calloutType = 'shotsfired',
+        weapon = 'WEAPON_PISTOL',
+    },
+}
+Config.CalloutNpcs = {
+    {
+        'a_m_m_mexlabor_01',
+        'a_m_m_hillbilly_02',
+        'a_m_m_hillbilly_01'
+    }
+}
